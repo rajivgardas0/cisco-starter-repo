@@ -1,18 +1,7 @@
 import React from 'react';
 import './App.css';
-
-function Banner() {
-  return <h1 className="Banner">Sextant - Network Dashboard</h1>;
-}
-
-function Exhibit({ title, children }) {
-  return (
-    <div className="Exhibit">
-      <h2>{title}</h2>
-      {children}
-    </div>
-  );
-}
+import Banner from './Banner';
+import Exhibit from './Exhibit';
 
 function App() {
   return (
