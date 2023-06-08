@@ -9,15 +9,17 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Exhibit title="IPv4 Address">
-        <IPAddress addressType="IPv4" />
-      </Exhibit>
-      <Exhibit title="IPv6 Address">
-        <IPAddress addressType="IPv6" />
-      </Exhibit>
-      <Exhibit title="Latency">
-        <Latency/>
-      </Exhibit>
+      <div className="Container">
+        <Exhibit title="IPv4 Address">
+          <IPAddress addressType="IPv4" />
+        </Exhibit>
+        <Exhibit title="IPv6 Address">
+          <IPAddress addressType="IPv6" />
+        </Exhibit>
+        <Exhibit title="Latency">
+          <Latency />
+        </Exhibit>
+      </div>
     </div>
   );
 }
