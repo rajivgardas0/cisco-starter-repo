@@ -25,7 +25,6 @@ function IPAddress({ addressType }) {
 
   return (
     <div className="IPAddress">
-      <h2 className="IPAddressHeading">{addressType}</h2>
       <div className="IPAddressContent">{ipAddress}</div>
     </div>
   );
